@@ -1,6 +1,7 @@
 pluginManagement {
 	repositories {
-		gradlePluginPortal()
+		maven { url "http://maven.aliyun.com/nexus/content/groups/public"  }
+		gradlePluginPortal()//如果插件下载慢，可以注释掉试试
 		maven { url 'https://repo.spring.io/plugins-release' }
 	}
 }
